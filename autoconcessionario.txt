@@ -1,0 +1,35 @@
+database = Autoconcessionario;
+tabella = Lista Auto;
+
+
+NOTNULL        NON PUO' ESSERE UN DATO VUOTO
+NULL           PUO' ESSERE UN DATO VUOTO
+
+
+car_id:        |  PrimaryKey -  AUTO_INCREMENT   -  BIGINT    |         1         |          2          |        3            |
+-----------------------------------------------------------------------------------------------------------------------------------
+
+brand:         |  VARCHAR - NOTNULL                           |     Porsche       |     Lamborghini     |     Koenigsegg      |                                                                 
+
+model:         |  VARCHAR - NOTNULL                           |     Carrera RS    |     Urus            |     Regera          |                                                                        
+
+category:      |  VARCHAR - NULL                              |     Supercar      |     Supercar        |                     |                                         
+
+seats:         |  TINYINT - NOTNULL                           |     2             |     4               |     2               |                                                 
+ 
+price:         |  DOUBLE(9,2) - NOTNULL                       |     87000         |     227000          |     1900000         |  
+
+engine:        |  VARCHAR - NOTNULL                           |     2.8l boxer    |     4l v8           | 5l v8 + 3 electrical|                      
+ 
+powered_by:    |  VARCHAR - NOTNULL                           |     gasoline      |     gasoline        |     gasoline        |             
+
+year:          |  DATE - NOTNULL                              |     1987          |     2020            |     2016            |               
+
+horse_power:   |  SMALLINT - NULL                             |     325           |     650             |                     |               
+
+used:          |  TINYINT(1) - NOTNULL - DEFAULT(0)           |     1(true)       |     0(false)        |     (DEFAULT)       |                 
+
+license_plate: |  VARCHAR - NOTNULL - DEFAULT(new-plate)      |     BO-B55985     |     (DEFAULT)       |      (DEFAULT)      |
+
+----------------------------------------------------------------------------------------------------------------------------------
+
