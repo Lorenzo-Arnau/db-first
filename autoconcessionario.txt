@@ -31,5 +31,7 @@ used:          |  TINYINT(1) - NOTNULL - DEFAULT(0)           |     1(true)     
 
 license_plate: |  VARCHAR - NOTNULL - DEFAULT(new-plate)      |     BO-B55985     |     (DEFAULT)       |      (DEFAULT)      |
 
+km:            |  INT - NULL                                  |     150000        |                     |                     |
+
 ----------------------------------------------------------------------------------------------------------------------------------
 
